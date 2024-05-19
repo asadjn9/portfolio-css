@@ -1,0 +1,64 @@
+
+    /* CSS for header navigation */
+
+    *{
+        padding: 0;
+        margin: 0;
+        font-family: sans-serif;
+      }
+      nav{
+          width: 84%;
+          margin: auto;
+          padding: 20PX 0;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+      }
+      .logo{
+          width: 100px;
+          cursor: pointer;
+      }
+      nav ul li{
+          display: inline-block;
+          list-style: none;
+          margin: 10px 20px;
+      }
+      nav ul li a{
+          text-decoration: none;
+          color: #606163;
+      }
+      nav ul li a:hover{
+          color: #f79420;
+      }
+      h2{
+        font-family: sans-serif;
+        margin: 40px 0px 0px 20px ;
+      }
+      
+      
+      table{
+          margin-top: 100px;
+          background-color: lightslategray;
+          color: #f79420;
+          border-radius: 10px;
+          height: 170px;
+          width: 250px;
+        }
+      
+      /* CSS for table */
+      table {
+            border-collapse: collapse;
+            width: 100%; /* 100% bandi responsive v*/
+          }
+          th, td {
+            border: 1.5px solid rgb(157, 172, 202); /* Add border to cells */
+            padding: 8px; /* Add padding to cells */
+            text-align: left; /* Align text to the left */
+          }
+          th {
+            background-color: #f79420; /* Background color for header cells */
+            color: black;
+          }
+          td {
+            background-color: black; /* Alternate row background color */
+          }

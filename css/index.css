@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+.asad{
+    height: 100vh;
+    width: 100%;
+    background: #edf2fc;
+    font-family: sans-serif;
+    position: relative;
+}
+nav{
+    width: 84%;
+    margin: auto;
+    padding: 20PX 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 100px;
+    cursor: pointer;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #606163;
+}
+nav ul li a:hover{
+    color: #f79420;
+
+}
+.information{
+    margin-left: 7%;
+    margin-top: 12%;
+}
+.information h2{
+    font-size: 75px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+span{
+    color: #f79420;
+}
+#span2{
+    color: white;
+}
+.information p{
+    color: #606163;
+    line-height: 22px;
+}
+/* resume button */
+.information a{
+    background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    margin: 20px 0;
+    border-radius: 6px;
+}
+.image{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+.image img{
+    height: 100%;
+    position: absolute;
+    left: 60%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+.image:hover .bg-shape{
+    bottom: 40px;
+}
+.image:hover .asad-pic{
+    left: 54%;
+}
+
+.social-media{
+    margin-left: 8%;
+    margin-top: 0px;
+}
+
+.social-media a{
+    font-size: 25px;
+    color: #f79420;
+    margin-top: 15px;
+    margin: 10px 5px;
+
+    
+}
+.table1{
+    
+    margin-top: 100px;
+    margin-left: 40%;
+    border: 3px solid #f79420;
+    /* background-color: lightslategray;... 6ang krdya */
+    color: black;
+    border-radius: 10px;
+    height: 170px;
+    width: 255px;
+    align: justify;
+    
+  }
+
+  /* for bottom  "Designed By ASAD JN" b*/
+  .table2{
+    background-color: #f79420;
+    font-family: sans-serif;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    
+  }
+
+.box{
+    height: 20px;
+    
+}
+
+#submitbtn{
+    color: #ffffff;
+    font-size: 17px;
+    border-radius: 5px;
+    background-color: #f79420;
+    height: 25px;
+    width: 80px;
+
+}
+#location{
+    margin: 200px 20px;
+
+}
+table.tablefooter{
+
+    border-collapse: collapse;
+  
+    width: 100%;
+    background: rgb(194, 191, 191);
+
+} 
+#tr1{
+    color: #f79420;
+    
+}
+#tr2{
+    color: white;
+}
